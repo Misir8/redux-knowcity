@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import Auth from './components/Auth/AuthContainer';
-import Registration from './components/Registration';
+import Registration from './components/Registration/RegistrationContainer';
 
 export default class App extends React.Component {
   render() {
