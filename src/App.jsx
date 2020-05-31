@@ -3,6 +3,7 @@ import './App.css';
 
 import Auth from './components/Auth/AuthContainer';
 import Registration from './components/Registration/RegistrationContainer';
+import Debug from './components/Debug/DebugContainer';
 
 export default class App extends React.Component {
   render() {
@@ -15,6 +16,7 @@ export default class App extends React.Component {
           <Registration />
         </div>
 
+        <Debug />
       </div>
     )
   }
