@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import Auth from './components/Auth';
+import Auth from './components/Auth/AuthContainer';
 import Registration from './components/Registration';
 
 export default class App extends React.Component {
